@@ -1,0 +1,48 @@
+html {
+  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+p {
+  line-height: 1.8rem;
+}
+li {
+  padding: 10px;
+  list-style-position: inside;
+}
+ul.site-nav li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 20px;
+  font-size: large;
+  font-weight: 700;
+}
+ul.site-nav li a {
+  color: teal;
+  text-decoration: none;
+}
+ul.site-nav li a.active {
+  text-decoration: 2px solid underline;
+}
+
+table {
+  margin: 40px auto;
+}
+thead {
+  background-color: rgb(72, 170, 170);
+}
+th {
+  padding: 20px;
+  color: whitesmoke;
+}
+td {
+  padding: 10px;
+  text-align: left;
+}
+tbody tr td:nth-of-type(3) {
+  font-weight: 900;
+}
