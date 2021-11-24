@@ -26,7 +26,7 @@ ul.site-nav li a {
   text-decoration: none;
 }
 ul.site-nav li a.active {
-  text-decoration: 2px solid underline;
+  text-decoration: underline;
 }
 
 table {
